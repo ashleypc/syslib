@@ -29,7 +29,7 @@ To add links to [Example.com](https://www.example.com).
 
 *this is the first item  
 *this is the second item  
-*this is the thrid item
+*this is the third item
 
 An ordered list:
 
