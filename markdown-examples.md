@@ -39,3 +39,7 @@ An ordered list:
 	- this is a sub item  
 1. this is the third item
 	- this is a sub item  
+
+| Column 1 | Column 2 | Column 3|
+|----------|----------|---------|
+| Data 1   | Data 1   | Data 3  |
