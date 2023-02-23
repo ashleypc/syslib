@@ -17,6 +17,6 @@
 	```
 	systemctl list-unit-files apache2.service
 	```
-*  no issues with this install refer to following webpage for in depth instruction
+*  no issues with this install refer to following webpage for further instruction
 
 https://cseanburns.net/WWW/systems-librarianship/14-installing-the-apache-web-server.html
