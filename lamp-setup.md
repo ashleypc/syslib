@@ -17,7 +17,7 @@
 	```
 	systemctl list-unit-files apache2.service
 	```
-*  no issues with this install, refer to following webpage for further instruction:
+**no issues with this install, refer to following webpage for further instruction:**
 
 https://cseanburns.net/WWW/systems-librarianship/14-installing-the-apache-web-server.html
 
@@ -56,7 +56,7 @@ https://cseanburns.net/WWW/systems-librarianship/14-installing-the-apache-web-se
 	```
 7. Create an index.php file
 	
-* no issues with this install, refer to following webpage for further instruction:
+**no issues with this install, refer to following webpage for further instruction:**
 
 https://cseanburns.net/WWW/systems-librarianship/15-installing-configuring-php.html
 
@@ -81,11 +81,11 @@ https://cseanburns.net/WWW/systems-librarianship/15-installing-configuring-php.h
 	```
 #### Things to remember in MySQL
 * When using MySQL end all commands with the semicolon `;`
-* Whwn entering database data, if mistakes are made on the command line but you have pressed enter, you cannot go back to that line above to edit. Press `\c` to cancel and restart that data.
+* When entering database data, if mistakes are made on the command line but you have pressed enter, you cannot go back to that line above to edit. Press `\c` to cancel and restart that data.
 * if you have already added it you can delete the record
 * remember `\q` to quit the database
 
-* no issues with MySQL install, refer to following webpage for further instruction:
+**no issues with MySQL install, refer to following webpage for further instruction:**
 
 https://cseanburns.net/WWW/systems-librarianship/16-installing-configuring-mysql.html
 
