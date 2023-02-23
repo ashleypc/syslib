@@ -74,6 +74,7 @@ https://cseanburns.net/WWW/systems-librarianship/15-installing-configuring-php.h
 	\q
 	root@hostname:~# exit
 	```
-#### MySQL: How to log-in as regular user
-
-
+#### log-in as regular user
+```
+mysql -u opacuser -p
+```
