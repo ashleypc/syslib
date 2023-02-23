@@ -2,7 +2,7 @@
 
 #### Linux, Apache, MySQL, PHP
 
-### Simple steps for Apache2 install
+## Simple steps for Apache2 install
 
 1. Update system prior to installing new packages
 	```
@@ -21,7 +21,7 @@
 
 https://cseanburns.net/WWW/systems-librarianship/14-installing-the-apache-web-server.html
 
-### Simple steps for installing and configuring PHP
+## Simple steps for installing and configuring PHP
 
 1. Install PHP
 	```
@@ -60,7 +60,7 @@ https://cseanburns.net/WWW/systems-librarianship/14-installing-the-apache-web-se
 
 https://cseanburns.net/WWW/systems-librarianship/15-installing-configuring-php.html
 
-### MySQL notes
+## MySQL notes
 
 1. Install MySQL
 2. Log in under root account
@@ -76,6 +76,16 @@ https://cseanburns.net/WWW/systems-librarianship/15-installing-configuring-php.h
 	```
 #### How to log-in as regular user
 1. Enter following command and input the password you created earlier for the user. Password will not show when you type or paste it in but it IS there!
-```
-mysql -u opacuser -p
-```
+	```
+	mysql -u opacuser -p
+	```
+#### Things to remember in MySQL
+* When using MySQL end all commands with the semicolon `;`
+* Whwn entering database data, if mistakes are made on the command line but you have pressed enter, you cannot go back to that line above to edit. Press `\c` to cancel and restart that data.
+* if you have already added it you can delete the record
+* remember `\q` to quit the database
+
+* no issues with MySQL install, refer to following webpage for further instruction:
+
+https://cseanburns.net/WWW/systems-librarianship/16-installing-configuring-mysql.html
+
