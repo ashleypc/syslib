@@ -2,7 +2,7 @@
 
 1. `cd` to **/repos/syslib** directory using following command
 	```
-	cd /repos/syslib
+	cd repos/syslib
 	```
 2. Create file in `nano` using `.md` as file extension
 	- save and exit `nano`
