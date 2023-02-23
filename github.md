@@ -1,6 +1,6 @@
 # Quick memory refresh for GitHub
 
-1. `cd` to **/repos/syslib** directory using following command
+1. `cd` to **repos/syslib** directory using following command
 	```
 	cd repos/syslib
 	```
