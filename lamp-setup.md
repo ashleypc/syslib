@@ -35,7 +35,7 @@ https://cseanburns.net/WWW/systems-librarianship/14-installing-the-apache-web-se
 	```
 	systemctl status apache2
 	```
-4. Configure Apache2 for PHP file index.php first instead of the default index.html
+4. Configure Apache2 for PHP *want file index.php first in line instead of the default index.html*
 	```
 	cd /etc/apache2/mods-enabled/
 	sudo cp dir.conf dir.conf.bak
@@ -45,6 +45,16 @@ https://cseanburns.net/WWW/systems-librarianship/14-installing-the-apache-web-se
 	```
 	DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
 	```
+5. Check that it is working and get message **Syntax Ok**
+	```
+	apachectl configtest
+	```
+6. Restart Apache2 after changes are made
+	```
+	sudo systemctl reload apache2
+	sudo systemctl restart apache2
+	```
+7. Create an index.php file
 	
 * no issues with this install, refer to following webpage for further instruction:
 
