@@ -20,3 +20,9 @@ git push origin main
 ```
 git pull origin main
 ```
+
+* can check if file was updated using `nano` or `cat`
+* ```
+* nano filenamehere.md
+* cat filenamehere.md
+* ``` 
