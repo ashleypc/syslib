@@ -16,7 +16,7 @@ git commit -m "message here"
 git push origin main
 ```
 
-##### If editing from the GitHub repo webpage, remember to `pull` changes in the command line with following command
+#### If editing from the GitHub repo webpage, remember to `pull` changes in the command line with following command
 ```
 git pull origin main
 ```
