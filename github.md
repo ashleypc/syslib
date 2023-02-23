@@ -11,7 +11,7 @@
 
 ```
 git status
-git add **filenamehere.md**
+git add filenamehere.md
 git commit -m "message here"
 git push origin main
 ```
