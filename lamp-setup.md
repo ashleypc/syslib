@@ -75,6 +75,7 @@ https://cseanburns.net/WWW/systems-librarianship/15-installing-configuring-php.h
 	root@hostname:~# exit
 	```
 #### How to log-in as regular user
+1. Enter following command and enter the password you created earlier for the user. Password will not show when you type or paste it in but it IS there!
 ```
 mysql -u opacuser -p
 ```
