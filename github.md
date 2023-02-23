@@ -1,7 +1,7 @@
 #Quick memory refresh for GitHub
 
-1. `cd` to **/repos/syslib** directory
-	-```
+1. `cd` to **/repos/syslib** directory using following command
+	```
 	cd /repos/syslib
 	```
 2. Create file in `nano` using `.md` as file extension
