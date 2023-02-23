@@ -1,8 +1,8 @@
 # LAMP install notes
 
-### Linux, Apache, MySQL, PHP
+#### Linux, Apache, MySQL, PHP
 
-#### Simple steps for Apache2 install
+### Simple steps for Apache2 install
 
 1. Update system prior to installing new packages
 	```
@@ -21,7 +21,7 @@
 
 https://cseanburns.net/WWW/systems-librarianship/14-installing-the-apache-web-server.html
 
-#### Simple steps for installing and configuring PHP
+### Simple steps for installing and configuring PHP
 
 1. Install PHP
 	```
@@ -59,3 +59,19 @@ https://cseanburns.net/WWW/systems-librarianship/14-installing-the-apache-web-se
 * no issues with this install, refer to following webpage for further instruction:
 
 https://cseanburns.net/WWW/systems-librarianship/15-installing-configuring-php.html
+
+### MySQL notes
+
+1. Install MySQL
+2. Log in under root account
+	- be cautious as the root user!
+	- remember `\q` to exit
+3. Create a **regular user** so that we don't need to use **root user**
+4. Create a practice database such as **opacdb**
+	- this is where you set the **user** and their **permissions**
+5. Exit out of the database as the **root MySQL user** and out of **root Linux user account**
+	```
+	> \q
+	root@hostname:~# exit
+	```
+#### MySQL: How to log-in as regular user 
