@@ -67,9 +67,10 @@ https://cseanburns.net/WWW/systems-librarianship/15-installing-configuring-php.h
 	- be cautious as the root user!
 	- remember `\q` to exit
 3. Create a **regular user** so that we don't need to use **root user**
-4. Create a practice database such as **opacdb**
+
+* Create a practice database such as **opacdb**
 	- this is where you set the **user** and their **permissions**
-5. Exit out of the database as the **root MySQL user** and out of **root Linux user account**
+* Exit out of the database as the **root MySQL user** and out of **root Linux user account**
 	```
 	\q
 	root@hostname:~# exit
