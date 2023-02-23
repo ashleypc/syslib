@@ -71,7 +71,9 @@ https://cseanburns.net/WWW/systems-librarianship/15-installing-configuring-php.h
 	- this is where you set the **user** and their **permissions**
 5. Exit out of the database as the **root MySQL user** and out of **root Linux user account**
 	```
-	> \q
+	\q
 	root@hostname:~# exit
 	```
-#### MySQL: How to log-in as regular user 
+* MySQL: How to log-in as regular user
+
+
