@@ -7,8 +7,6 @@
 2. Create file in `nano` using `.md` as file extension
 	- save and exit `nano`
 3. Add to repo using following commands
-
-
 ```
 git status
 git add filenamehere.md
