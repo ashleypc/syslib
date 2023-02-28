@@ -15,7 +15,7 @@
       - This connects your html page to the MySQL database you want to use. This example code connects to the opacdb using the opac.php files that were created previously in the MySQL part of the LAMP setup.
 
 5. Paste **PHP Search Script** into file. Save and Exit.
-      - This script has all contains the details of our search query. 
+      - This script contains the details of our search query. 
 
 
 ### HTML Form
