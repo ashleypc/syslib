@@ -1,7 +1,8 @@
 # Create Bare Bones OPAC - Part 1
 
 
-'cd' to `/var/www/html/' to create php and html files
+`cd` to **/var/www/html/** to create php and html files
+
 ```
 cd /var/www/html/
 ```
@@ -63,8 +64,8 @@ an intuition, of how an OPAC works, though.</p>
 </body>
 </html>
 ```
-*Remember to change IP address to current IP address.*
-*Change any file names that you hav changed to match the file you want t display*
+* **Remember to change IP address to current IP address.**
+* **Change any file names that you hav changed to match the file you want t display**
 
 ## PHP Search Script
 
