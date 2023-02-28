@@ -3,11 +3,13 @@
 
 1. `cd` to **/var/www/html/** to create php and html files
 
-        ```
+       ```
         cd /var/www/html/
-        ```
-2. Use `nano` to create **.html** 
-3. Paste following code into file:
+       ```
+       
+2. Use `nano` to create a **.html** file. Whatever name you choose is okay as long as you use it in the **.php** script as well.
+3. 
+4. Paste following code into file:
 
 
 ### HTML Form Code
