@@ -1,11 +1,13 @@
 # Create Bare Bones OPAC - Part 1
 
 
-`cd` to **/var/www/html/** to create php and html files
+1. `cd` to **/var/www/html/** to create php and html files
 
-```
-cd /var/www/html/
-```
+        ```
+        cd /var/www/html/
+        ```
+2. Use `nano` to create **.html** 
+3. Paste following code into file:
 
 
 ### HTML Form Code
@@ -65,7 +67,7 @@ an intuition, of how an OPAC works, though.</p>
 </html>
 ```
 * **Remember to change IP address to current IP address.**
-* **Change any file names that you hav changed to match the file you want t display**
+* **Change any file names that you have changed to match the file you want to display**
 
 ## PHP Search Script
 
