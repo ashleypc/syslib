@@ -2,10 +2,9 @@
 
 
 1. `cd` to **/var/www/html/** to create php and html files
-
        ```
         cd /var/www/html/
-       ```
+        ```
        
 2. Use `nano` to create a **.html** file. Whatever name you choose is okay as long as you use it in the **.php** script as well.
 3. 
