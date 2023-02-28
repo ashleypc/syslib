@@ -12,7 +12,7 @@
 3. Paste **HTML Form** code into file. Save and Exit.
 
 4. Use `nano` to create a **.php** file. Whatever name you choose is okay, as long as you use it in the **.html** script as well.
-      - This connects your html page to the MsSQL database you want to use. This example code connects to the opacdb using the opac.php files that were created previously in the MySQL part of the LAMP setup.
+      - This connects your html page to the MySQL database you want to use. This example code connects to the opacdb using the opac.php files that were created previously in the MySQL part of the LAMP setup.
 
 
 ### HTML Form
