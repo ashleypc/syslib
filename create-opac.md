@@ -2,7 +2,7 @@
 
 
 1. `cd` to **/var/www/html/** to create php and html files
-       ```
+        ```
         cd /var/www/html/
         ```
        
