@@ -7,12 +7,15 @@
       cd /var/www/html/
 ```
        
-2. Use `nano` to create a **.html** file. Whatever name you choose is okay, as long as you use it in the **.php** script as well. Example shows opacbb.html
+2. Use `nano` to create a **.html** file. Whatever name you choose is okay, as long as you use it in the **.php** script as well. The example shows **opacbb.html**
  
 3. Paste **HTML Form** code into file. Save and Exit.
 
-4. Use `nano` to create a **.php** file. Whatever name you choose is okay, as long as you use it in the **.html** script as well.
+4. Use `nano` to create a **.php** file. Whatever name you choose is okay, as long as you use it in the **.html** script as well. The example uses **search.php**
       - This connects your html page to the MySQL database you want to use. This example code connects to the opacdb using the opac.php files that were created previously in the MySQL part of the LAMP setup.
+
+5. Paste **PHP Search Script** into file. Save and Exit.
+      - This script has all contains the details of our search query. 
 
 
 ### HTML Form
