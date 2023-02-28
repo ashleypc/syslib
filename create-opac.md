@@ -2,16 +2,19 @@
 
 
 1. `cd` to **/var/www/html/** to create php and html files
-        ```
-        cd /var/www/html/
-        ```
+
+```
+      cd /var/www/html/
+```
        
-2. Use `nano` to create a **.html** file. Whatever name you choose is okay as long as you use it in the **.php** script as well.
+2. Use `nano` to create a **.html** file. Whatever name you choose is okay, as long as you use it in the **.php** script as well. Example shows opacbb.html
  
-4. Paste following code into file:
+4. Paste **HTML Form** code into file. Save and Exit.
+
+6. Use `nano` to create a **.php** file. Whatever name you choose is okay, as long as you use it in the **.html** script as well.
 
 
-### HTML Form Code
+### HTML Form
 
 ```
 <html>
@@ -126,7 +129,7 @@ if (isset($_POST['search'])) {
 // Close the MySQL connection
 mysqli_close($conn);
 
-echo "<p>Return to search page: <a href='http://11.111.222.222/opacbb.php'>http://11.111.222.222/opacbb.php</a></p>";
+echo "<p>Return to search page: <a href='http://11.111.222.222/opacbb.html'>http://11.111.222.222/opacbb.html</a></p>";
 
 ?>
 
