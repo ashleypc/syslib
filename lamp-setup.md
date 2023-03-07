@@ -79,6 +79,11 @@ https://cseanburns.net/WWW/systems-librarianship/15-installing-configuring-php.h
 	```
 	mysql -u opacuser -p
 	```
+2. How to view and select databases:
+	```
+	show databases;
+	use databasenamehere;
+	```
 #### Things to remember in MySQL
 * When using MySQL end all commands with the semicolon `;`
 * When entering database data, if mistakes are made on the command line but you have pressed enter, you cannot go back to that line above to edit. Press `\c` to cancel and restart that data.
