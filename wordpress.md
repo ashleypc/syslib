@@ -40,6 +40,7 @@ https://cseanburns.net/WWW/systems-librarianship/17-install-wordpress.html
 following address using your IP in place of the text "youripaddresshere".
 ```
 http://youripaddresshere/wordpress/wp-admin/install.php
+```
 
 * To finish install create a new username and password, keeping them in a
 secure location.
