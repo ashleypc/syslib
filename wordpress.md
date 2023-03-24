@@ -1,4 +1,4 @@
-##Wordpress Info
+## Wordpress Info
 
 Instead of installing wordpress using the `apt` command we will install manually 
 because using `apt` for Wordpress is slightly more confusing.
