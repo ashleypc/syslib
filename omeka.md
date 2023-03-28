@@ -27,12 +27,12 @@ sudo su
 mysql -u root
 ```
 
- 	- create new user
-	- replace XXXXXXXX with strong password
-	- create new database
-	- grant priveleges for omeka
-	- check the output by showing the databases
-	- exit MySQL
+ * create new user
+ * replace XXXXXXXX with strong password
+ * create new database
+ * grant priveleges for omeka
+ * check the output by showing the databases
+ * exit MySQL
 	
 ```
 create user ‘omeka’@‘localhost’ identified by 'XXXXXXXXX';
