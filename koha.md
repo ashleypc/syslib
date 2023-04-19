@@ -27,3 +27,9 @@ Remember your username and password.
     *  Choose the appropriate section to edit
 ### To add bibliographic data by importing, make sure to have Z39.50/SRU targets to pull from. These are other libraries that freely share their MARC data.
 - More info here: https://koha-community.org/manual/16.11/html/ch02s06.html#suggestztarget
+
+### Koha userinterface is located at:
+http://youripaddress
+
+### Koha Administrative site is located at:
+http://youripaddress:8080
