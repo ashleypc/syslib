@@ -15,9 +15,9 @@ https://cseanburns.net/WWW/systems-librarianship/18-install-omeka.html
 
 4.  Download Omeka Classic and unzip file
 ```
-/var/www/html
-wget https://github.com/omeka/Omeka/releases/download/v3.1/omeka-3.1.zip
-unzip omeka-3.1.zip
+cd /var/www/html
+sudo wget https://github.com/omeka/Omeka/releases/download/v3.1/omeka-3.1.zip
+sudo unzip omeka-3.1.zip
 ```
 5. Optional: Rename omeka-3.1 to omeka using `sudo mv`
 6. Create the database and user in MySql
@@ -61,3 +61,6 @@ sudo systemctl restart mysql
 ```
 10. Complete setup in browser at your IP address `/omeka`
  * `/omeka/admin` to log in and edit items after instal and gonfiguration is completed
+
+###### Wordpress does not do well with URL or IP address changes if the IP is in the URL. You will need to edit the wp-config file using `sudo nano` and insert a couple lines into that file to fix the issue. GO here: https://wordpress.org/documentation/article/changing-the-site-url/ 
+ * For any URL changes, you need to use the wordpress site, admin page and apply them in your preferences to avoid this issue. (If your IP address randomly changes, like mine, you can fix that with wp-config file.
